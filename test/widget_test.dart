@@ -9,7 +9,7 @@ import 'package:bloc/bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:my_gemini_app/Chatlog/bloc/Chatlog_bloc.dart';
 import 'package:my_gemini_app/bloc_observer.dart';
-import 'package:my_gemini_app/my_service.dart';
+import 'package:my_gemini_app/Service/my_service.dart';
 
 void main() async {
   MyService _client = MyService();
